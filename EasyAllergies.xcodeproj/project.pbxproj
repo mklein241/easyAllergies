@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		31CA8DB42647670E0018DD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA8DB32647670E0018DD7E /* AppDelegate.swift */; };
 		31CA8DB62647670E0018DD7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA8DB52647670E0018DD7E /* SceneDelegate.swift */; };
-		31CA8DB82647670E0018DD7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA8DB72647670E0018DD7E /* ViewController.swift */; };
+		31CA8DB82647670E0018DD7E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA8DB72647670E0018DD7E /* LoginViewController.swift */; };
 		31CA8DBB2647670E0018DD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CA8DB92647670E0018DD7E /* Main.storyboard */; };
 		31CA8DBD264767130018DD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CA8DBC264767130018DD7E /* Assets.xcassets */; };
 		31CA8DC0264767130018DD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CA8DBE264767130018DD7E /* LaunchScreen.storyboard */; };
+		31CA8DC8264768620018DD7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA8DC7264768620018DD7E /* HomeViewController.swift */; };
+		31CA8DCA264771B60018DD7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31CA8DC9264771B60018DD7E /* GoogleService-Info.plist */; };
+		31CA8DCC264857CE0018DD7E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA8DCB264857CE0018DD7E /* ListViewController.swift */; };
+		31CA8DCE26488D650018DD7E /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA8DCD26488D640018DD7E /* Foods.swift */; };
+		31F880B5264F5DC4007225B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F880B4264F5DC4007225B9 /* DetailViewController.swift */; };
+		31F880B7264F5EDD007225B9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F880B6264F5EDD007225B9 /* Item.swift */; };
+		31F880B9264F8968007225B9 /* SavedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F880B8264F8968007225B9 /* SavedListViewController.swift */; };
+		69FF7786A07922FD057693CB /* Pods_EasyAllergies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC6B69BFFE45902CD2CDF38C /* Pods_EasyAllergies.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31CA8DB02647670E0018DD7E /* EasyAllergies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyAllergies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CA8DB32647670E0018DD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31CA8DB52647670E0018DD7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31CA8DB72647670E0018DD7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31CA8DB72647670E0018DD7E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		31CA8DBA2647670E0018DD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31CA8DBC264767130018DD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31CA8DBF264767130018DD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31CA8DC1264767130018DD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31CA8DC7264768620018DD7E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		31CA8DC9264771B60018DD7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31CA8DCB264857CE0018DD7E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		31CA8DCD26488D640018DD7E /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
+		31F880B4264F5DC4007225B9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		31F880B6264F5EDD007225B9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		31F880B8264F8968007225B9 /* SavedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedListViewController.swift; sourceTree = "<group>"; };
+		432FFF0A0A6D2E973E57A4A6 /* Pods-EasyAllergies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAllergies.debug.xcconfig"; path = "Target Support Files/Pods-EasyAllergies/Pods-EasyAllergies.debug.xcconfig"; sourceTree = "<group>"; };
+		58EAF1D0E66A0A1F908F8033 /* Pods-EasyAllergies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyAllergies.release.xcconfig"; path = "Target Support Files/Pods-EasyAllergies/Pods-EasyAllergies.release.xcconfig"; sourceTree = "<group>"; };
+		FC6B69BFFE45902CD2CDF38C /* Pods_EasyAllergies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyAllergies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FF7786A07922FD057693CB /* Pods_EasyAllergies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				31CA8DB22647670E0018DD7E /* EasyAllergies */,
 				31CA8DB12647670E0018DD7E /* Products */,
+				5BEE12E0935AE84AC64A9557 /* Pods */,
+				998FF36140F8A5B7F5122AF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +79,37 @@
 			children = (
 				31CA8DB32647670E0018DD7E /* AppDelegate.swift */,
 				31CA8DB52647670E0018DD7E /* SceneDelegate.swift */,
-				31CA8DB72647670E0018DD7E /* ViewController.swift */,
+				31CA8DCD26488D640018DD7E /* Foods.swift */,
+				31F880B6264F5EDD007225B9 /* Item.swift */,
+				31F880B8264F8968007225B9 /* SavedListViewController.swift */,
+				31F880B4264F5DC4007225B9 /* DetailViewController.swift */,
+				31CA8DCB264857CE0018DD7E /* ListViewController.swift */,
+				31CA8DC7264768620018DD7E /* HomeViewController.swift */,
+				31CA8DB72647670E0018DD7E /* LoginViewController.swift */,
 				31CA8DB92647670E0018DD7E /* Main.storyboard */,
 				31CA8DBC264767130018DD7E /* Assets.xcassets */,
 				31CA8DBE264767130018DD7E /* LaunchScreen.storyboard */,
 				31CA8DC1264767130018DD7E /* Info.plist */,
+				31CA8DC9264771B60018DD7E /* GoogleService-Info.plist */,
 			);
 			path = EasyAllergies;
+			sourceTree = "<group>";
+		};
+		5BEE12E0935AE84AC64A9557 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				432FFF0A0A6D2E973E57A4A6 /* Pods-EasyAllergies.debug.xcconfig */,
+				58EAF1D0E66A0A1F908F8033 /* Pods-EasyAllergies.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		998FF36140F8A5B7F5122AF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC6B69BFFE45902CD2CDF38C /* Pods_EasyAllergies.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31CA8DC4264767130018DD7E /* Build configuration list for PBXNativeTarget "EasyAllergies" */;
 			buildPhases = (
+				41206E38ABDBC339AAA937A4 /* [CP] Check Pods Manifest.lock */,
 				31CA8DAC2647670E0018DD7E /* Sources */,
 				31CA8DAD2647670E0018DD7E /* Frameworks */,
 				31CA8DAE2647670E0018DD7E /* Resources */,
+				1E44194E33C65AAE07000DB0 /* [CP] Embed Pods Frameworks */,
+				ABD67E54A083FEC0F74596A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31CA8DC0264767130018DD7E /* LaunchScreen.storyboard in Resources */,
+				31CA8DCA264771B60018DD7E /* GoogleService-Info.plist in Resources */,
 				31CA8DBD264767130018DD7E /* Assets.xcassets in Resources */,
 				31CA8DBB2647670E0018DD7E /* Main.storyboard in Resources */,
 			);
@@ -132,14 +181,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E44194E33C65AAE07000DB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyAllergies/Pods-EasyAllergies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyAllergies/Pods-EasyAllergies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyAllergies/Pods-EasyAllergies-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41206E38ABDBC339AAA937A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyAllergies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD67E54A083FEC0F74596A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyAllergies/Pods-EasyAllergies-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyAllergies/Pods-EasyAllergies-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyAllergies/Pods-EasyAllergies-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31CA8DAC2647670E0018DD7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CA8DB82647670E0018DD7E /* ViewController.swift in Sources */,
+				31CA8DB82647670E0018DD7E /* LoginViewController.swift in Sources */,
 				31CA8DB42647670E0018DD7E /* AppDelegate.swift in Sources */,
 				31CA8DB62647670E0018DD7E /* SceneDelegate.swift in Sources */,
+				31F880B9264F8968007225B9 /* SavedListViewController.swift in Sources */,
+				31CA8DCE26488D650018DD7E /* Foods.swift in Sources */,
+				31CA8DCC264857CE0018DD7E /* ListViewController.swift in Sources */,
+				31F880B7264F5EDD007225B9 /* Item.swift in Sources */,
+				31CA8DC8264768620018DD7E /* HomeViewController.swift in Sources */,
+				31F880B5264F5DC4007225B9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +397,7 @@
 		};
 		31CA8DC5264767130018DD7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 432FFF0A0A6D2E973E57A4A6 /* Pods-EasyAllergies.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +417,7 @@
 		};
 		31CA8DC6264767130018DD7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EAF1D0E66A0A1F908F8033 /* Pods-EasyAllergies.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
